@@ -1,16 +1,21 @@
 {
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodextended"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "item": "create"
+        }
+    ],
     "type": "create:mixing",
     "ingredients": [
-        [
-            {
-                "item": "thermal:coffee"
-            },
-            {
-                "item": "pamhc2crops:coffeebeanitem"
-            }
-        ],
         {
-            "item": "pamhc2trees:hazelnutitem"
+            "tag": "forge:crops/coffee"
+        },
+        {
+            "tag": "forge:nuts/hazelnut"
         },
         {
             "fluid": "minecraft:water",

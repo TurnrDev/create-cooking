@@ -1,14 +1,19 @@
 {
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2crops"
+        },
+        {
+            "type": "forge:mod_loaded",
+            "item": "create"
+        }
+    ],
     "type": "create:mixing",
     "ingredients": [
-        [
-            {
-                "item": "thermal:coffee"
-            },
-            {
-                "item": "pamhc2crops:coffeebeanitem"
-            }
-        ],
+        {
+            "tag": "forge:crops/coffee"
+        },
         {
             "fluid": "minecraft:water",
             "nbt": {},

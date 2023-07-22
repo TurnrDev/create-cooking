@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:rawmutton"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:groundmuttonitem"
+    }
+  ],
+  "processingTime": 150
+}

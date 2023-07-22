@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:crops/cinnamon"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodextended:groundcinnamonitem"
+        },
+        {
+            "item": "pamhc2foodextended:groundcinnamonitem",
+            "count": 2,
+            "chance": 0.25
+        },
+        {
+            "item": "pamhc2trees:cinnamonitem",
+            "chance": 0.25
+        }
+    ],
+    "processingTime": 150
+}

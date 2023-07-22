@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:rawpork"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:groundporkitem"
+    }
+  ],
+  "processingTime": 150
+}

@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:fishes"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:groundfishitem"
+    }
+  ],
+  "processingTime": 150
+}

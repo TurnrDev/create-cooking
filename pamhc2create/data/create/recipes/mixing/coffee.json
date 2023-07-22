@@ -1,0 +1,25 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        [
+            {
+                "item": "thermal:coffee"
+            },
+            {
+                "item": "pamhc2crops:coffeebeanitem"
+            }
+        ],
+        {
+            "fluid": "minecraft:water",
+            "nbt": {},
+            "amount": 125
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2crops:hotcoffeeitem",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}

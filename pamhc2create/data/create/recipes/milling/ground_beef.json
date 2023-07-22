@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:rawbeef"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:groundbeefitem"
+    }
+  ],
+  "processingTime": 150
+}

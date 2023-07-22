@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:salt"
+        },
+        {
+            "tag": "forge:flour"
+        },
+        {
+            "fluid": "minecraft:water",
+            "nbt": {},
+            "amount": 1000
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:doughitem",
+            "count": 2
+        }
+    ]
+}

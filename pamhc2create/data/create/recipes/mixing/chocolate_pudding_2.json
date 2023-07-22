@@ -1,0 +1,22 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "fluidTag": "forge:chocolate",
+            "amount": 250
+        },
+        {
+            "fluidTag": "forge:milk",
+            "amount": 250
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:chocolatepuddingitem",
+            "count": 1
+        }
+    ]
+}

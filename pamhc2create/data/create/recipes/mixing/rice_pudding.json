@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:crops/rice"
+    },
+    {
+      "fluidTag": "forge:milk",
+      "amount": 250
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:spices/groundcinnamon"
+    },
+    {
+      "tag": "forge:spices/vanilla"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodextended:ricepuddingitem",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

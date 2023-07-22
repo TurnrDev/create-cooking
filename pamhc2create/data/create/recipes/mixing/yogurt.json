@@ -1,0 +1,16 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "fluidTag": "forge:milk",
+            "amount": 1000
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:yogurtitem",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}

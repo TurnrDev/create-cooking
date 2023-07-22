@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:rawrabbit"
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:groundrabbititem"
+    }
+  ],
+  "processingTime": 150
+}

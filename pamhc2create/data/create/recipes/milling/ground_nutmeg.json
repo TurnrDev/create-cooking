@@ -1,0 +1,23 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:crops/nutmeg"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodextended:groundnutmegitem"
+        },
+        {
+            "item": "pamhc2foodextended:groundnutmegitem",
+            "count": 2,
+            "chance": 0.25
+        },
+        {
+            "item": "pamhc2trees:nutmegitem",
+            "chance": 0.25
+        }
+    ],
+    "processingTime": 150
+}

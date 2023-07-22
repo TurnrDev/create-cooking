@@ -1,0 +1,28 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        [
+            {
+                "item": "thermal:coffee"
+            },
+            {
+                "item": "pamhc2crops:coffeebeanitem"
+            }
+        ],
+        {
+            "item": "pamhc2trees:hazelnutitem"
+        },
+        {
+            "fluid": "minecraft:water",
+            "nbt": {},
+            "amount": 125
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodextended:hazelnutcoffeeitem",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}

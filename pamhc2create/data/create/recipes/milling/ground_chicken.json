@@ -1,0 +1,14 @@
+{
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:rawchicken"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:groundchickenitem"
+        }
+    ],
+    "processingTime": 150
+}

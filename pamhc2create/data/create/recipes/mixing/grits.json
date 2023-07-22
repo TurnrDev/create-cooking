@@ -1,0 +1,26 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:cornmeal"
+        },
+        {
+            "fluidTag": "forge:milk",
+            "amount": 250
+        },
+        {
+            "fluidTag": "forge:water",
+            "amount": 250
+        },
+        {
+            "tag": "forge:salt"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodextended:gritsitem",
+            "count": 1
+        }
+    ],
+    "heatRequirement": "heated"
+}

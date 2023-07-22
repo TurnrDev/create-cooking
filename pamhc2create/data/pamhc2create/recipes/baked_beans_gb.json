@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "forge:tool_pot"
+        },
+        {
+            "tag": "forge:crops/bean"
+        },
+        {
+            "tag": "forge:condiments/tomatosauce"
+        }
+    ],
+    "result": {
+        "item": "pamhc2foodextended:bakedbeansitem",
+        "count": 1,
+        "nbt": "{display:{Name:'{\"text\": \"Minez Baked Beans\"}',Lore:['{\"text\": \"Introduced in the UK in 1901 by the M. J. Minez Company, Minez Baked Beans became a standard part of the English full breakfast. Meinz removed pork from the product during the Second World War rationing.\"}']}}"
+    },
+}

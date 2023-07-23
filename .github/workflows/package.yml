@@ -22,4 +22,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "v$(date +'%Y%m%d%H%M')"
           generateReleaseNotes: true
-          commit: "main"
+          commit: ${{ github.sha }}

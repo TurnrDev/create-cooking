@@ -1,0 +1,15 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "forge:egg"
+    },
+    "result": "pamhc2foodcore:boiledeggitem",
+    "experience": 0.0,
+    "cookingtime": 3000
+}

@@ -7,7 +7,7 @@
     ],
     "type": "minecraft:smelting",
     "ingredient": {
-        "item": "minecraft:water"
+        "tag": "forge:water"
     },
     "result": "pamhc2foodcore:saltitem",
     "experience": 0.0,

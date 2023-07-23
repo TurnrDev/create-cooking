@@ -1,0 +1,16 @@
+{
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:toast"
+        },
+        {
+            "tag": "forge:jellies/applejelly"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:applejellytoastitem"
+        }
+    ]
+}

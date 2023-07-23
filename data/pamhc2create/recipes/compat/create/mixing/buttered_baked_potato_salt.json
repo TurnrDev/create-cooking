@@ -1,0 +1,25 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "item": "minecraft:baked_potato"
+        },
+        {
+            "tag": "forge:butter"
+        },
+        {
+            "tag": "forge:salt"
+        }
+    ],
+    "result": {
+        "item": "pamhc2foodcore:butteredbakedpotatoitem",
+        "count": 1,
+        "nbt": "{display:{Lore:['{\"text\": \"with Salt\"}']}}"
+    }
+}

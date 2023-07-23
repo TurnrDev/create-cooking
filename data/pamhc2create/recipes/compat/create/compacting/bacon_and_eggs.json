@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:egg"
+        },
+        {
+            "tag": "forge:rawpork"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:baconandeggsitem"
+        }
+    ],
+    "heatRequirement": "heated"
+}

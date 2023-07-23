@@ -27,6 +27,6 @@ jobs:
           artifactErrorsFailBuild: true
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.bump.outputs.new_tag }}
-          name: "${{ steps.bump.outputs.new_tag }} ($(date +'%Y-%m-%d'))"
+          name: ${{ steps.bump.outputs.new_tag }}
           body: ${{ steps.bump.outputs.changelog }}
           commit: ${{ github.sha }}

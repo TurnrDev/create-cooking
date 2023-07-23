@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:crops/apple"
+        },
+        {
+            "tag": "forge:crops/apple"
+        },
+        {
+            "tag": "forge:sugar"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:applesauceitem",
+            "count": 1
+        }
+    ]
+}

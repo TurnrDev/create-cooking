@@ -1,0 +1,26 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:groundmeats/groundchicken"
+        },
+        {
+            "tag": "forge:condiments"
+        },
+        {
+            "tag": "forge:bread"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:basicchickensandwichitem"
+        }
+    ],
+    "heatRequirement": "heated"
+}

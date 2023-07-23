@@ -19,5 +19,7 @@ jobs:
         with:
           artifacts: "pamhc2create.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ github.ref }}
+          tag: "v$(date +'%Y%m%d%H%M')"
+          releaseName: "Pam's HarvestCraft 2 - Create Compat"
+          releaseNotes: "Automated release"
           commit: "main"

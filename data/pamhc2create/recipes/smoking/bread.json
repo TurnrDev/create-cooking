@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smoking",
     "ingredient": {
-        "item": "forge:dough"
+        "tag": "forge:dough"
     },
     "result": "minecraft:bread",
     "experience": 0.0,

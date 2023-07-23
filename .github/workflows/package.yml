@@ -18,8 +18,8 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "pamhc2create.zip"
+          artifactErrorsFailBuild: true
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: "v$(date +'%Y%m%d%H%M')"
-          releaseName: "Pam's HarvestCraft 2 - Create Compat"
-          releaseNotes: "Automated release"
+          generateReleaseNotes: true
           commit: "main"

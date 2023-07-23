@@ -1,0 +1,29 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:chocolatebar"
+        },
+        {
+            "tag": "forge:salt"
+        },
+        {
+            "tag": "forge:seeds"
+        },
+        {
+            "tag": "forge:fruits"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:trailmixitem",
+            "count": 1
+        }
+    ]
+}

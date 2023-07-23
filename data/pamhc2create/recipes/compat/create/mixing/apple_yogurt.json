@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:yogurt"
+        },
+        {
+            "tag": "forge:crops/apple"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:applesmoothieitem",
+            "count": 1
+        }
+    ]
+}

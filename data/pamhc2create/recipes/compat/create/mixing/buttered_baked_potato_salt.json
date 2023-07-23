@@ -17,9 +17,12 @@
             "tag": "forge:salt"
         }
     ],
-    "result": {
-        "item": "pamhc2foodcore:butteredbakedpotatoitem",
-        "count": 1,
-        "nbt": "{display:{Lore:['{\"text\": \"with Salt\"}']}}"
-    }
+    "results": [
+        {
+            "item": "pamhc2foodcore:butteredbakedpotatoitem",
+            "count": 1,
+            "nbt": "{display:{Lore:['{\"text\": \"with Salt\"}']}}"
+        }
+    ],
+    "heatRequirement": "heated"
 }

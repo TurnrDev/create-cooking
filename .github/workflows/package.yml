@@ -16,3 +16,5 @@ jobs:
         with:
           artifacts: "pamhc2create.zip"
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref }}
+          commit: ${{ github.sha }}

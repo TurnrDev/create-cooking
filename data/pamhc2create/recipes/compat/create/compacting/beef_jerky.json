@@ -1,0 +1,29 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:compacting",
+    "ingredients": [
+        {
+            "tag": "forge:rawbeef"
+        },
+        {
+            "tag": "forge:salt"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:beefjerkyitem",
+            "count": 1
+        },
+        {
+            "item": "pamhc2foodcore:beefjerkyitem",
+            "count": 2,
+            "chance": 0.12
+        }
+    ],
+    "heatRequirement": "heated"
+}

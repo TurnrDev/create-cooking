@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "forge:salt"
+    },
+    {
+      "fluidTag": "forge:milk",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "item": "pamhc2foodcore:cheeseitem",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "heated"
+}

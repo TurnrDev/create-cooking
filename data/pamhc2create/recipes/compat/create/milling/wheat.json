@@ -1,0 +1,25 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:milling",
+    "ingredients": [
+        {
+            "tag": "forge:flour_plants"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:flouritem"
+        },
+        {
+            "item": "pamhc2foodcore:flouritem",
+            "count": 2,
+            "chance": 0.25
+        }
+    ],
+    "processingTime": 150
+}

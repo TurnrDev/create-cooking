@@ -1,0 +1,23 @@
+{
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "pamhc2foodcore"
+        }
+    ],
+    "type": "create:mixing",
+    "ingredients": [
+        {
+            "tag": "forge:juices/applejuice"
+        },
+        {
+            "tag": "forge:ices"
+        }
+    ],
+    "results": [
+        {
+            "item": "pamhc2foodcore:applesmoothieitem",
+            "count": 1
+        }
+    ]
+}

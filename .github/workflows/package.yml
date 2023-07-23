@@ -28,4 +28,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.bump.outputs.new_tag }}
           generateReleaseNotes: true
+          name: "${{ steps.bump.outputs.new_tag }}: ${{ github.event.head_commit.message }}"
           commit: ${{ github.sha }}

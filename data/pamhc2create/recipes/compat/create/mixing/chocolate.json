@@ -8,7 +8,7 @@
     "type": "create:mixing",
     "ingredients": [
         {
-            "item": "forge:crops/cocoabeans"
+            "tag": "forge:crops/cocoabeans"
         },
         {
             "fluidTag": "forge:milk",

@@ -37,5 +37,6 @@ jobs:
           game_endpoint: "minecraft"
           changelog: ${{ steps.bump.outputs.changelog }}
           display_name: ${{ steps.bump.outputs.new_tag }}
+          game_versions: "Minecraft 1.18:1.18.2"
           project_id: "895433"
           token: "${{ secrets.CURSEFORGE_TOKEN }}"

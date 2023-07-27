@@ -35,7 +35,7 @@ jobs:
         with:
           file_path: "pamhc2create-${{ steps.bump.outputs.new_tag }}.zip"
           game_endpoint: "minecraft"
-          relations: "requiredDependency:requiredDependency,pams-harvestcraft-2-crops:optionalDependency,pams-harvestcraft-2-food-core:optionalDependency,pams-harvestcraft-2-trees:optionalDependency,pams-harvestcraft-2-food-extended:optionalDependency"
+          relations: "create:requiredDependency,pams-harvestcraft-2-crops:optionalDependency,pams-harvestcraft-2-food-core:optionalDependency,pams-harvestcraft-2-trees:optionalDependency,pams-harvestcraft-2-food-extended:optionalDependency"
           changelog: ${{ steps.bump.outputs.changelog }}
           display_name: ${{ steps.bump.outputs.new_tag }}
           project_id: "895433"
